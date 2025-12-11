@@ -1,3 +1,4 @@
+from visualpath import visualize_knight_tour
 BOARD_SIZE = 8
 
 MOVES = [

@@ -8,8 +8,8 @@
 
 ## Praktikum 1 (Knigh's Tour)
 
-Program ini menyelesaikan Knight’s Tour pada papan 8×8 menggunakan Algoritma Warnsdorff.
-Pengguna dapat memilih titik awal, kemudian program menghasilkan:
+Program ini menyelesaikan Knight’s Tour pada papan 8×8 dengan Algoritma Warnsdorff.
+User dapat memilih titik awal dan program menghasilkan:
   - Papan hasil tour (angka 1–64)
   - Jenis tour → OPEN atau CLOSED
   - Visualisasi lintasan dalam bentuk gambar

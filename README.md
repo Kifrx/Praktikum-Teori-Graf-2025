@@ -30,8 +30,8 @@ Setelah program berjalan, pengguna akan diminta memasukkan:
 ### Output Program
 1. Papan Knight’s Tour
 Program menampilkan papan 8×8 berisi angka 1–64, di mana:
-  - 1 = posisi langkah pertama
-  - 64 = posisi langkah terakhir
+    - 1 = posisi langkah pertama
+    - 64 = posisi langkah terakhir
 urutan angka menunjukkan lintasan kuda
 
 2. Status Tour

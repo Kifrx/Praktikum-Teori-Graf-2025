@@ -39,4 +39,23 @@ Program menentukan jenis tour:
 `OPEN TOUR` -> langkah terakhir tidak kembali ke posisi awal
 `CLOSED TOUR` -> langkah terakhir dapat loncat kembali ke posisi awal
 
-## Praktikum 2
+## Praktikum 2 (LMIS)
+
+Program ini menyelesaikan permasalahan “Largest Monotonically Increasing Subsequence" dengan menggunakan tree
+ 1. Tree Structure:
+    - Root abstrak sebagai titik awal
+    - Setiap elemen input menjadi node yang terhubung ke root
+   
+2. Branching Rule:
+    - Node B dapat menjadi child dari Node A jika:
+      * Indeks B > Indeks A (muncul setelahnya)
+      * Nilai B > Nilai A (monotonically increasing)
+   
+ 3. Pencarian LIS:
+    - Gunakan DFS untuk mencari path terpanjang dari root
+    - Kedalaman maksimum = panjang LIS
+    - Path dengan kedalaman maksimum = urutan LIS
+   
+4. Kompleksitas:
+    - Waktu: O(n^2) untuk membangun tree + O(n*2^n) untuk DFS
+    - Space: O(n^2) untuk menyimpan edges

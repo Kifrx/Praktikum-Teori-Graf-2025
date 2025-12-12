@@ -41,7 +41,8 @@ Program menentukan jenis tour:
 
 ## Praktikum 2 (LMIS)
 
-Program ini menyelesaikan permasalahan “Largest Monotonically Increasing Subsequence" dengan menggunakan tree
+Program ini menyelesaikan permasalahan “Largest Monotonically Increasing Subsequence" dengan menggunakan tree.
+
  1. Tree Structure:
     - Root abstrak sebagai titik awal
     - Setiap elemen input menjadi node yang terhubung ke root
@@ -59,3 +60,15 @@ Program ini menyelesaikan permasalahan “Largest Monotonically Increasing Subse
 4. Kompleksitas:
     - Waktu: O(n^2) untuk membangun tree + O(n*2^n) untuk DFS
     - Space: O(n^2) untuk menyimpan edges
+
+
+### Cara Penggunaan Program
+Program ini sudah memiliki data input yakni [4, 1, 13, 7, 0, 2, 8, 11, 3], jadi cukup jalankan program pythonnya.
+
+### Output Program
+Program akan menampilkan output sebagai berikut:
+1. Menampilkan sequence input yang akan diproses
+2. Menunjukkan panjang subsequence increasing terpanjang yang ditemukan
+3. Urutan dan Indeks LIS
+4. Menunjukkan jalur dalam struktur tree dari root ke leaf
+5. Semua Kemungkinan LIS yang muncul
